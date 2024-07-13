@@ -1,5 +1,12 @@
 /* General setup */
 
+@font-face {
+    font-family: myHeadingFont;
+    src: url('./fonts/introheadr-base.woff') format('woff'),
+    url('./fonts/introrustg-base2line.woff') format('woff'),
+    url('./fonts/introscriptr-h2base.woff') format('woff');
+}
+
 html {
     font-size: 10px;
     margin: 0;
@@ -16,6 +23,7 @@ html {
   
   h1 {
     font-size: 3.2rem;
+    font-family: myHeadingFont,;
   }
   
   h2 {
